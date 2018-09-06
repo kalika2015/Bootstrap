@@ -1,0 +1,359 @@
+body, html {
+	font-family: "Open Sans", sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 1.7;
+	color: #003C5A;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+/* Navigation */
+.navbar-centerr{
+	float:none;
+	margin: 0 auto;
+	display: table;
+	table-layout: fixed;
+}
+#menu {
+	padding: 42px;
+	transition: all 0.8s;
+}
+#menu.navbar-default {
+	background-color: #003C5A;
+	border-color: rgba(231, 231, 231, 0);
+}
+#menu a.navbar-brand {
+	letter-spacing: 1px;
+	font: 700 33px/62px "Merriweather", serif;
+	color: #edf4f8;
+	text-transform: none;
+	padding: 0;
+}
+#menu.navbar-default .navbar-nav > li > a {
+	color: #2379a3;
+	font-size: 15px;
+	letter-spacing: 0.5px;
+	margin: 10px 10px 0 10px;
+	padding: 16px;
+	text-transform: inherit;
+	display: block;
+	line-height: 1.2;
+}
+#menu.navbar-default .navbar-nav > li > a:hover {
+	color: #eee;
+}
+
+.tel{
+	font-family: "Adobe Devanagari", Serif;
+	font-size: 25px !important;
+	color: #edf4f8 !important;
+}
+.tel:hover{
+	color: #fc8f44 !important;
+}
+
+.on {
+	background-color: #003C5A !important;
+	padding: 0 !important;
+	padding: 10px 0 !important;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+	color: #eee !important;
+	background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+	background-color: #2379a3;
+	border-color: #FFF;
+}
+.navbar-default .navbar-toggle:hover>.icon-bar {
+	background-color: #FFF;
+}
+
+
+/* Header Section */
+#header{
+	position: relative;
+	vertical-align: top;
+	height: 755px;
+	margin-top: 9em;
+	background: url(../img/page01_img01.png) no-repeat center bottom #003c5a;
+	background-position: 50% 100%;
+	color: #fff;
+}
+.intro {
+	display: block;
+	width: 100%;
+	padding: 2em;
+	position: absolute;
+	top: -26%;
+	vertical-align: top;
+}
+.intro h1 {
+	color: #fff;
+	margin-top: 0;
+	display: block;
+	line-height: 1.3;
+	letter-spacing: .4px;
+	font-size: 58px;
+}
+.intro h5 {
+	font-size: 18px;
+	line-height: 2.33;
+	letter-spacing: .4px;
+	color: #46B8D5;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+.intro p {
+	color: #fff;
+	font-size: 24px;
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+header .intro-text {
+	padding-top: 300px;
+	padding-bottom: 200px;
+	text-align: center;
+}
+.btn:hover {
+	background: #f9a870;
+	border-color: #f9a870;
+}
+.btn {
+	margin-top: 30px;
+	text-transform: uppercase;
+	border-radius: 24px;
+	line-height: 1.2;
+	font-weight: 700;
+	transition: .3s all ease;
+	background-color: #fc8f44;
+	border-color: #fc8f44;
+	font-size: 15px;
+	padding: 15px 55px 17px;
+	letter-spacing: .6px;
+}
+
+
+/* Section 1 */
+#section1 {
+	padding: 80px 0 0 0;
+	background: #edf4f8;
+}
+#section1 h2 {
+	color: #252525;
+	font: 40px/1.55 "Merriweather", serif;
+}
+#section1 h3 {
+	color: #555555;
+	font: 40px/1.3125 "Merriweather", serif;
+}
+#section1 p {
+	padding-right: 100px;
+	margin-top: 40px;
+	color: #7d7d7d;
+}
+.img02 img{
+	margin-top: 14%;
+}
+
+/* Section 2 */
+h4{
+	color: #555555;
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 1.45;
+}
+#section2 {
+	padding: 80px 0;
+}
+#section2 p{
+	color: #7d7d7d;
+	font-size: 18px;
+}
+#section2 i{
+	color: #E76E33;
+}
+#section2 h2 {
+	color: #252525;
+	font-size: 40px;
+	line-height: 1.55;
+	padding-bottom: 20px;
+}
+.margin-negative-2 {
+	padding: 0 50px 0 0;
+}
+.box-sm > .box__left, .box-sm > .box__right, .box-sm > .box__body {
+	display: table-cell;
+	vertical-align: top;
+}
+
+/* Section 3 */
+#section3 {
+	padding: 80px 0;
+	background: #EAF2F6;
+}
+#section3 h2 {
+	color: #252525;
+	font: 45px/1.55 "Merriweather", serif;
+}
+#section3 h3 {
+	color: #555555;
+	font: 38px/1.3125 "Merriweather", serif;
+}
+#section3 p{
+	margin-top: 40px;
+	color: #7d7d7d;
+	font-size: 15.5px;
+}
+
+
+/* Section 4 */
+#section4 {
+	color: #fff;
+	padding: 80px 0;
+	background-color: #003C5A;
+}
+#section4 h2{
+	font-size: 50px;
+}
+
+#section4 h5 {
+	color: #66b8e0;
+	font-size: 18px;
+	line-height: 1.33;
+}
+.rd-mailform {
+	width: 100%;
+	font-weight: inherit;
+	font-size: 16px;
+	line-height: 34px;
+	margin-bottom: 0;
+	margin-top: 30px;
+}
+.form-group {
+	position: relative;
+	display: block;
+	width: 100%;
+	margin-top: 25px;
+}
+#section4 .row{
+	margin-left: 180px;
+}
+ .form-group input {
+	display: block;
+	width: 100%;
+	margin: 0;
+	-webkit-appearance: none;
+	font-size: 16px;
+	padding: 8px 18px;
+	line-height: 34px;
+	color: #a2a2a2;
+	background: #fff;
+	border-radius: 24px;
+}
+
+/* Section 5 */
+#section5 {
+	padding: 80px 0;
+	background: #E76E33;
+}
+#section5 h2{
+	text-align: center;
+	color: #fff;
+	font-size: 40px;
+}
+
+
+/* Footer Section*/
+#footer {
+	background: #272727;
+	padding: 0 0 20px 0;
+}
+.well-xs {
+	padding-top: 24px;
+	padding-bottom: 16px;
+}
+.rd-navbar-brand a{
+	font: 700 30px/62px "Merriweather", serif;
+	color: #edf4f8;
+	text-transform: none;
+}
+.footer-navbar-nav {
+	padding-left: 10px;
+	padding-top: 24px;
+}
+.footer-navbar-nav ul {
+	list-style: none;
+}
+.footer-navbar-nav > li + li {
+	margin-left: 50px;
+}
+.footer-navbar-nav > li {
+	display: inline-block;
+}
+.footer-navbar-nav li a{
+	color: #7d7d7d;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	line-height: 1.33;
+}
+.footer-navbar-nav li a:hover, .rd-navbar-brand a:hover{
+	color: #edf4f8;
+	text-decoration: none;
+}
+.copyright a{
+	color: #edf4f8;
+}
+.copyright a:hover{
+	color: #E76E33;
+	text-decoration: none;
+}
+.inline-list > li {
+	display: inline-block;
+	margin-top: 30px;
+	margin-left: 15px;
+}
+.text-md-right {
+	text-align: right;
+}
+.copyright {
+	padding-top: 18px;
+	padding-bottom: 0;
+	font-size: 13px;
+	line-height: 21px;
+	color: #7d7d7d;
+}
+hr {
+	height: 1px;
+	border: none;
+	color: #3f3935;
+	background: #3f3935;
+	margin: 0;
+	float: left;
+	width: 100%;
+}
+.fa-x{
+	color: #7d7d7d;
+}
+.fa-x:hover{
+	color: #E76E33;
+}
+
+
+
+
+.back-to-top {
+	cursor: pointer;
+	position: fixed;
+	bottom: 40px;
+	right: 40px;
+	display:none;
+	width: 50px;
+	height: 50px;
+	font-size: 24px;
+	line-height: 0;
+}
